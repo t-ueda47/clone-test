@@ -1,0 +1,22 @@
+# OSが勝手に作るゴミファイル
+.DS_Store
+Thumbs.db
+
+# 開発ツール（VS Codeなど）の設定
+.vscode/
+.idea/
+*.iml
+
+# Javaのコンパイル済みファイル（これらが混ざると管理が大変になります）
+*.class
+bin/
+out/
+build/
+
+# Pythonを使う場合
+__pycache__/
+*.pyc
+
+# 一時ファイル
+*.log
+tmp/
